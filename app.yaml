@@ -8,6 +8,5 @@ services:
     instance_size_slug: basic-xxs
     internal_ports:
       - 8080
-    name: roomer-server
+    name: socket-server
     run_command: node index.js
-
